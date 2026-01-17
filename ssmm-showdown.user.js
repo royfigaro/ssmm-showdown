@@ -2080,7 +2080,7 @@ BattleScene = function () {
                     break;
 
                 case 1:
-                    this.bgm = BattleSound.loadBgm('https://github.com/royfigaro/ssmm-showdown/raw/master/music/xy-elite4.mp3', 133673, 261675, this.bgm);
+                    this.bgm = BattleSound.loadBgm('https://github.com/royfigaro/ssmm-showdown/raw/master/music/Pokémon Scarlet & Violet - Battle! (Blueberry Academy Trainer).mp3', 133673, 261675, this.bgm);
                     break;
                // case 2:
                 //    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/bw-n-final.mp3', 42532, 129714, this.bgm);
