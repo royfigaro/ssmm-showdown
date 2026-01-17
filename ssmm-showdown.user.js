@@ -2021,7 +2021,7 @@ BattleScene = function () {
         };
     _proto.
         rollBgm = function rollBgm() {
-            this.setBgm(1 + this.numericId % 6);
+            this.setBgm(1 + this.numericId % 1);
     };
 
 
@@ -2080,25 +2080,25 @@ BattleScene = function () {
                     break;
 
                 case 1:
-                    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/xy-elite4.mp3', 133673, 261675, this.bgm);
+                    this.bgm = BattleSound.loadBgm('https://github.com/royfigaro/ssmm-showdown/raw/master/music/xy-elite4.mp3', 133673, 261675, this.bgm);
                     break;
-                case 2:
-                    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/bw-n-final.mp3', 42532, 129714, this.bgm);
-                    break;
-                case 3:
-                    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/bdsp-giratina.mp3', 60527, 164162, this.bgm);
-                    break;
-                case 4:
-                    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/b2w2-plasma.mp3', 264410, 438982, this.bgm);
-                    break;
-                case 5:
-                    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/bdsp-galactic-admin.mp3', 119450, 176991, this.bgm);
-                    break;
+               // case 2:
+                //    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/bw-n-final.mp3', 42532, 129714, this.bgm);
+                //    break;
+               // case 3:
+                //    this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/bdsp-giratina.mp3', 60527, 164162, this.bgm);
+                //    break;
+               // case 4:
+               //     this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/b2w2-plasma.mp3', 264410, 438982, this.bgm);
+               //     break;
+              //  case 5:
+               //     this.bgm = BattleSound.loadBgm('https://github.com/OpenSauce04/ssmm-showdown/raw/master/music/bdsp-galactic-admin.mp3', 119450, 176991, this.bgm);
+               //     break;
 
-                case 6:
-                default:
-                    this.bgm = BattleSound.loadBgm('https://play.pokemonshowdown.com/audio/sm-trainer.mp3', 8323, 89230, this.bgm);
-                    break;
+                //case 6:
+               // default:
+                 //   this.bgm = BattleSound.loadBgm('https://play.pokemonshowdown.com/audio/sm-trainer.mp3', 8323, 89230, this.bgm);
+                  //  break;
             }
 
             this.updateBgm();
